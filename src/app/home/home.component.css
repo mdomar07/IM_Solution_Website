@@ -31,11 +31,16 @@
 .nav_a a{
     text-decoration: none;
     color: white;
+    /* padding-bottom: 5px; */
+    transition: 0.8s;
 
 }
 .nav_a a:hover{
-    text-decoration: underline;
+    border-bottom: 1px solid;
     transition: 0.8s;
+    /* transform: scale(1.1); */
+    z-index: 1;
+    /* padding-bottom: 5px; */
     /* color: black; */
 }
 
@@ -116,7 +121,7 @@
 }
 .service_1{
     height: 250px;
-    width: 150px;
+    width: 200px;
     color: white;
     border-radius: 5px;
     text-align: center;
@@ -219,6 +224,7 @@
     font-size: 20px;
     margin-bottom: 15px;
     text-align: center;
+    
 }
 .card:hover{
     background-color: #1E90FF;
@@ -227,3 +233,27 @@
     z-index: 1;
     box-shadow: 3px 3px 3px 1px rgba(44, 47, 51, 0.2);
 }
+
+/* -----------------Footer Secton------------------- */
+
+.Footer{
+    height: 250px;
+    background-color: #0662bd;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+
+}
+.Footer h1{
+    width: 90%;
+    margin: auto;
+    color: white;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+.Footer p{
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+
